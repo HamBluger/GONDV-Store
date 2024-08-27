@@ -1,0 +1,57 @@
+body {
+    background-color: lightblue;
+    color: black;
+    transition-duration: 1002ms;
+    transition-property: all;
+}
+
+#MyParagraph {
+    font-family: Courier;
+    text-align: center;
+    font-size: 90px;
+    transition-duration: 2000ms;
+}
+table, th, td {
+    text-align: center;
+    border-width: 0 1px 0 0;
+    padding: 10px 17px 10px 12px;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    color: #b85137;
+    transition-duration: 1.5s;
+    font: bold;
+    font-family: sans-serif, serif;
+
+}
+th:hover, td:hover {
+    background-color: blue;
+}
+input[type="checkbox"] {
+    background-color: red;
+    border-radius: 40%;
+    width: 15px;
+    height: 15px;
+    transition-duration: 2000ms;
+
+}
+input[type="password"], input[type="text"] {
+    color: aqua;
+    transition-duration: 1.5s;
+    border-style: none;
+}
+input:hover {
+    color: #b00b00;
+    background-color: black;
+    border-style: none;
+}
+button {
+    color: black;
+    transition-duration: 1.5s;
+    background-color: white;
+    border-style: none;
+}
+button:hover {
+    border-style: none;
+    background-color: cadetblue;
+    color: whitesmoke;
+}
